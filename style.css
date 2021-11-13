@@ -1,0 +1,138 @@
+
+
+header{
+    width: 100vw;
+    height: 70px;
+    display: block;
+    background-color: #1b883a ;
+
+   font-family: 'Work Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+body {     background-color:#e5d7c7 }
+header .inner{
+    width: 1300px; 
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+header .logo div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img{
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+header nav{
+    float: right;
+    height: 100%;
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+header nav li:last-of-type{
+    margin-right: 150px;
+}
+
+header nav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header nav a{
+    color: #f4ebdc;
+}
+
+header nav .button{
+    background-color: #502314; 
+    color: #f4ebdc;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.05);
+}
+
+header.main img {
+    width: 1270px;
+    margin-bottom: 0;
+
+}
+
+body.row{
+    display: flex;
+    height:  88%;
+    align-items: center;
+
+}
+body.color{
+    flex-basis: 50%;
+}
+
+.mainpic{
+    margin-bottom: 0;
+}
+
+
+ .maincontent
+{
+  margin-top: -20px;
+  margin-left: 0px;
+  padding:45px 450px 20px;
+  font-size:13px;
+  line-height:17px;
+width: 30%;
+font-family: work sans;
+text-align: justify;
+  color:#1b883a;}
+
+  .button{
+    background-color: #502314; 
+    color: #f4ebdc;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.site-footer
+{
+  background-color:#502314;
+  padding:45px 100px 20px;
+  font-size:15px;
+
+  color:#e5d7c7;
+  font-family: work sans;
+  ;
+}
+
+.site-footer a
+{
+  color:#737373;
+}
+
+
